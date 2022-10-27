@@ -1,0 +1,36 @@
+{
+  "name": "Desafio_loginin_formulario",
+  "version": "1.0.0",
+  "description": "Utilizando session y mongoDB Atlas para persistir las sessiones de login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonder990/Servidor-con-balance-de-carga"
+  },
+  "keywords": [],
+  "author": "Gustavo Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonder990/Servidor-con-balance-de-carga"
+  },
+  "homepage": "https://github.com/wonder990/Servidor-con-balance-de-carga",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "minimist": "^1.2.7",
+    "mongoose": "^6.6.5",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
